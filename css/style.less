@@ -9262,6 +9262,9 @@ input[type="texxt"]:focus {
       margin-top: 50px;
       margin-bottom: 40px;
     }
+    form {
+      padding-right: 35px;
+    }
     .inp_field {
       max-width: 364px;
       margin-bottom: 7px;
@@ -9270,6 +9273,8 @@ input[type="texxt"]:focus {
         font-family: "Roboto";
         padding: 16px 18px 14px 18px;
         border-radius: 10px;
+        color: #5E5E5E;
+        font-size: 16px;
         &::-moz-placeholder {
           font-family: "Roboto";
           color: #5E5E5E;
@@ -9403,6 +9408,9 @@ input[type="texxt"]:focus {
   .prod-ct_main_content .descr {
     margin-left: 0;
   }
+  .prod-ct_main_content .descr.mt {
+    margin-top: 20px;
+  }
   .prod-ct_main {
     display: block;
   }
@@ -9525,28 +9533,23 @@ input[type="texxt"]:focus {
     .inp_field {
       max-width: 364px;
       margin-bottom: 7px;
-      input {
-        width: 100%;
-        font-family: "Roboto";
-        padding: 14px 0px 14px 3px !important;
-        border-radius: 10px;
-      }
+      // input {
+      //   width: 100%;
+      //   font-family: "Roboto";
+      //   padding: 14px 0px 14px 20px;
+      //   border-radius: 10px;
+      // }
       textarea {
-        max-width: 364px;
-        width: 100%;
-        border: none;
-        border-radius: 10px;
-        padding: 14px 0px 14px 3px;
-        resize: none;
-        height: 45px;
+        padding-top: 12px;
+        padding-bottom: 28px;
       }
     }
   }
   .prod-ct_main .contact_data button {
     display: block;
-    float: right;
+    float: none;
     margin-bottom: 20px;
-    position: static;
+    position: relative;
 
   }
   .prod-ct_main .contact_data .form_heading {

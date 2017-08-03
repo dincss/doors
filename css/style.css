@@ -8056,7 +8056,7 @@ input[type="texxt"]:focus {
     text-align: center;
   }
   .contact_data .inp_field {
-    max-width: 364px;
+    max-width: none;
     margin-bottom: 7px;
   }
   .contact_data .inp_field textarea {
@@ -8065,9 +8065,17 @@ input[type="texxt"]:focus {
   }
   .prod-ct_main .contact_data button {
     display: block;
-    float: none;
+    float: right;
     margin-bottom: 20px;
     position: relative;
+    right: 0px;
+    left: 38px;
+  }
+  .prod-ct_main .contact_data .inp_field {
+    max-width: none;
+  }
+  .prod-ct_main .contact_data textarea {
+    max-width: none;
   }
   .prod-ct_main .contact_data .form_heading {
     margin-top: 40px;

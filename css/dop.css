@@ -1,0 +1,16 @@
+
+.popup_modal_block .wrap .content_wrap .product_wrap .block .bottomblock a.addDop {
+            float: right;
+            padding: 0 22px;
+            line-height: 33px;
+            height: 33px;
+            color: #feffff;
+            cursor: pointer;
+            border-radius: 33px;
+            border: none;
+            background: #de2a1b;
+            outline: none; 
+			font-size:14px;
+			}
+            .popup_modal_block .wrap .content_wrap .product_wrap .block .bottomblock a.addDop:hover {
+              background: #ff493a; }

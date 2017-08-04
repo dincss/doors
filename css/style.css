@@ -7801,6 +7801,9 @@ input[type="texxt"]:focus {
   font-weight: bold;
   font-size: 24px;
 }
+.prod-ct_main .contact_data {
+  box-sizing: border-box;
+}
 .prod-ct_main .contact_data .form_heading {
   font-size: 30px;
   color: #000;
@@ -7809,20 +7812,19 @@ input[type="texxt"]:focus {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-.prod-ct_main .contact_data form {
-  padding-right: 35px;
-}
 .prod-ct_main .contact_data .inp_field {
-  max-width: 364px;
+  max-width: 400px;
   margin-bottom: 7px;
 }
 .prod-ct_main .contact_data .inp_field input {
+  box-sizing: border-box;
   width: 100%;
   font-family: "Roboto";
   padding: 16px 18px 14px 18px;
   border-radius: 10px;
   color: #5E5E5E;
   font-size: 16px;
+  background: #F4F4F4;
 }
 .prod-ct_main .contact_data .inp_field input::-moz-placeholder {
   font-family: "Roboto";
@@ -7840,12 +7842,14 @@ input[type="texxt"]:focus {
   font-size: 16px;
 }
 .prod-ct_main .contact_data textarea {
-  max-width: 364px;
+  box-sizing: border-box;
   width: 100%;
   border: none;
   border-radius: 10px;
   padding: 16px 18px 14px 18px;
   resize: none;
+  background: #F4F4F4;
+  height: 70px;
 }
 .prod-ct_main .contact_data textarea::-moz-placeholder {
   font-family: "Roboto";
@@ -8067,14 +8071,9 @@ input[type="texxt"]:focus {
     display: block;
     float: right;
     margin-bottom: 20px;
-    position: relative;
-    right: 0px;
-    left: 38px;
+    left: 0;
   }
   .prod-ct_main .contact_data .inp_field {
-    max-width: none;
-  }
-  .prod-ct_main .contact_data textarea {
     max-width: none;
   }
   .prod-ct_main .contact_data .form_heading {

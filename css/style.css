@@ -8066,6 +8066,10 @@ input[type="texxt"]:focus {
   .contact_data .inp_field textarea {
     padding-top: 12px;
     padding-bottom: 12px;
+    background: #fff;
+  }
+  .prod-ct_main .contact_data .inp_field input {
+    background: #fff;
   }
   .prod-ct_main .contact_data button {
     display: block;

@@ -8065,7 +8065,7 @@ input[type="texxt"]:focus {
   }
   .contact_data .inp_field textarea {
     padding-top: 12px;
-    padding-bottom: 28px;
+    padding-bottom: 12px;
   }
   .prod-ct_main .contact_data button {
     display: block;

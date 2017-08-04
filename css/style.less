@@ -8973,26 +8973,26 @@ input[type="texxt"]:focus {
   display: table;
 
 }
-.nav_param {
-  width: 100%;
-}
-.nav_param ul {
-  text-align: right;
-  margin-right: 50px;
-}
-.nav_param ul li {
-  display: inline-block;
-  text-align: right;
-  font-family: "Roboto";
-  color: #7E7E7E;
-  font-size: 18px;
-}
-.nav_param ul li:first-child {
-  margin-right: 50px;
-}
-.nav_param ul li:last-child {
-  margin-left: 35px;
-} 
+// .nav_param {
+//   width: 100%;
+// }
+// .nav_param ul {
+//   text-align: right;
+//   margin-right: 20px;
+// }
+// .nav_param ul li {
+//   display: inline-block;
+//   text-align: right;
+//   font-family: "Roboto";
+//   color: #7E7E7E;
+//   font-size: 18px;
+// }
+// .nav_param ul li:first-child {
+//   margin-right: 50px;
+// }
+// .nav_param ul li:last-child {
+//   margin-left: 50px;
+// } 
 
 #page.basket .text1 {
   margin-bottom: 0;
@@ -9089,7 +9089,7 @@ input[type="texxt"]:focus {
         font-size: 24px;
         font-weight: bold;
       }
-      &.fin_price {
+      &.fin_price, &.init_price {
         span {
           position: relative;
           &:after {
@@ -9099,6 +9099,13 @@ input[type="texxt"]:focus {
           padding-left: 20px;
         } 
 
+      }
+      &.nav_par {
+        position: relative;
+        top: -50px;
+        font-family: "Roboto";
+        color: #7E7E7E;
+        font-size: 18px;
       }
     }
     .arrow_wrapper {
@@ -9171,6 +9178,17 @@ input[type="texxt"]:focus {
 
     }
   }
+}
+
+
+.basket_counter_list.with_menu {
+  top: -10px;
+}
+.basket_counter_list li p.nav_par {
+  top: -95px;
+}
+.basket_counter_list.with_menu li .arrow_wrapper .arrow {
+  top: 30px;
 }
 
 .prod-ct_main_content_add {
@@ -9405,10 +9423,16 @@ input[type="texxt"]:focus {
   align-items: center
 }
 
-
+// @media (min-width: 900px) and (max-width: 1175px) { 
+//   .nav_param ul li:last-child {
+//     margin-left: 80px;
+//   }
+// }
 
 
 @media (min-width: 320px) and (max-width: 900px) { 
+
+
 
   .prod-ct_main_content img {
     float: none;
@@ -9634,6 +9658,15 @@ input[type="texxt"]:focus {
   .prod-ct_main_content_add .items {
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .basket_counter_list li p.nav_par {
+    display: none;
+  }
+  .basket_counter_list.with_menu {
+    top: 0px;
+  } 
+  .basket_counter_list.with_menu li .arrow_wrapper .arrow {
+    top: -20px;
   }
 
 

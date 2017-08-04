@@ -7750,18 +7750,18 @@ input[type="texxt"]:focus {
   width: 100%;
   margin-bottom: 30px;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffaf8d), color-stop(100, #ff8b5a));
-  background-image: -webkit-linear-gradient(top, #ffaf8d 0%, #ff8b5a 100%);
-  background-image: linear-gradient(to bottom, #ffaf8d 0%, #ff8b5a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffaf8d), color-stop(100, #ff8b5a));
+  background: -webkit-linear-gradient(top, #ffaf8d 0%, #ff8b5a 100%);
+  background: linear-gradient(to bottom, #ffaf8d 0%, #ff8b5a 100%);
   position: relative;
   z-index: 1;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
 .prod-ct_main_content_add a.butt:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff8b5a), color-stop(100, #ffaf8d));
-  background-image: -webkit-linear-gradient(top, #ff8b5a 0%, #ffaf8d 100%);
-  background-image: linear-gradient(to bottom, #ff8b5a 0%, #ffaf8d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff8b5a), color-stop(100, #ffaf8d));
+  background: -webkit-linear-gradient(top, #ff8b5a 0%, #ffaf8d 100%);
+  background: linear-gradient(to bottom, #ff8b5a 0%, #ffaf8d 100%);
 }
 .prod-ct_main_content_add .items {
   margin-top: 30px;
@@ -7785,18 +7785,18 @@ input[type="texxt"]:focus {
   text-align: center;
   cursor: pointer;
   margin-bottom: 20px;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #afc173), color-stop(100, #94a659));
-  background-image: -webkit-linear-gradient(top, #afc173 0%, #94a659 100%);
-  background-image: linear-gradient(to bottom, #afc173 0%, #94a659 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #afc173), color-stop(100, #94a659));
+  background: -webkit-linear-gradient(top, #afc173 0%, #94a659 100%);
+  background: linear-gradient(to bottom, #afc173 0%, #94a659 100%);
   position: relative;
   z-index: 1;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
 .prod-ct_main_content_add .services a.butt:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #94a659), color-stop(100, #afc173));
-  background-image: -webkit-linear-gradient(top, #94a659 0%, #afc173 100%);
-  background-image: linear-gradient(to bottom, #94a659 0%, #afc173 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #94a659), color-stop(100, #afc173));
+  background: -webkit-linear-gradient(top, #94a659 0%, #afc173 100%);
+  background: linear-gradient(to bottom, #94a659 0%, #afc173 100%);
 }
 .prod-ct_main_content_add .items a.butt.mb {
   margin-bottom: 15px;
